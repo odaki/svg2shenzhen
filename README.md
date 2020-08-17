@@ -6,15 +6,21 @@ Inkscape extension for exporting drawings into a KiCad PCB
 
 ## Features
 
-- Draw Any kind of shapes without restriction (unlike `svg2mod`)
+- Draw Any kind of shapes without restriction
 - Supports Drill Pad, and custom drill size
 - Supports Edge Cut (PCB Shape)
 - Tested on OSX, Windows and Linux
 
 ## Install
 
-1. Download the latest version (0.2.17) of [svg2shenzhen-extension.zip](https://github.com/badgeek/svg2shenzhen-next/releases)
+Warning: starting from 0.2.18 svg2shenzhen only support Inkscape 1.0 and above
 
+1. Download the latest version (0.2.18.1)
+  - Windows https://github.com/badgeek/svg2shenzhen/releases/download/0.2.18.1/svg2shenzhen-extension-0.2.18.1.zip
+  - Linux / OSX https://github.com/badgeek/svg2shenzhen/releases/download/0.2.18.1/svg2shenzhen-extension-0.2.18.1.tar.gz
+  - Release notes: https://github.com/badgeek/svg2shenzhen/releases/tag/0.2.18.1
+  - Older version: https://github.com/badgeek/svg2shenzhen/releases
+  
 2. Extract and copy the files into the directory indicated in Inkscape under *Edit -> Preferences -> System: User extensions*
 
 ## How to
@@ -73,6 +79,11 @@ Download and open [Example PCB](https://raw.githubusercontent.com/badgeek/svg2sh
 - [Practical Guide to Designing PCB Art](https://medium.com/@urish/a-practical-guide-to-designing-pcb-art-b5aa22926a5c)
 - [KitSprint ANORG 2018](http://wiki.sgmk-ssam.ch/wiki/KitSprint_ANORG_2018#Kicad_bitmap_import_for_Shenzhen_Ready)
 
+## Videos
+- Drawing PCBs with Inkscape (FOSSDEM) with @kasbah of kitspace - https://www.youtube.com/watch?v=xXRPw7ItMaM
+- Making a PCB Badge for Hackaday Supercon! - https://www.youtube.com/watch?v=YqdBiOj8uXw
+- Understanding and Making PCB Art (mrtwinkletwinkle) https://www.youtube.com/watch?v=Sbkvza8cKQE
+
 ## Support this project
 
 This project is developed independently and without any connection to funding or big collective or organization.
@@ -82,7 +93,6 @@ Go to <https://www.patreon.com/badgeek> to become a patron and support this proj
 <a href="https://www.patreon.com/badgeek">
   <img src="https://i.imgur.com/ys5X3ZP.png" >
 </a>
-
 
 ## Contributors
 
